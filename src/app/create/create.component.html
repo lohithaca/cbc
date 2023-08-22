@@ -1,0 +1,17 @@
+<div>
+    <form #userForm="ngForm" (ngSubmit)="createUser(userForm)">
+        <label for="fname">ID:</label>
+        <input type="number" id="id" name="id" ngModel><br>
+        <label for="fname">NAME:</label>
+        <input type="text" id="name" name="name" ngModel><br>
+        <label for="fname">USERNAME:</label>
+        <input type="text" id="username" name="username" ngModel><br>
+        <label for="fname">PHONE:</label>
+        <input type="text" id="phone" name="phone" ngModel><br>
+        <label for="fname">WEBSITE:</label>
+        <input type="text" id="website" name="website" ngModel><br>
+        <div>
+          <button type="submit" class="btn btn-primary mb-2">Create User</button>
+        </div>
+    </form>
+  </div>
